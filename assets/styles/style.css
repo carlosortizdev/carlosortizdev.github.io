@@ -1,0 +1,329 @@
+html {
+    scroll-behavior: smooth;
+    
+}
+
+body {
+    animation-name: fadeIn;
+    animation-duration: 1.2s;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.pages{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    margin: 1% 5% 1% 5%;
+
+    max-width: 95%;
+}
+
+/* FIRST PAGE - HOME */
+
+.home {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    margin: 1% 5% 1% 5%;
+
+    max-width: 95%;
+}
+
+.info-home {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 34px;
+    min-width: 45%;
+    min-height: auto;
+    padding-right: 15%;
+}
+
+.display-home {
+    min-width: 45%;
+    min-height: auto;
+    margin-top: 5%;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 350px;
+    padding-top: 5%;
+}
+
+.btn {
+    max-width: 60%;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    padding: 1px;
+}
+
+.btn-animate {
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.btn-animate:hover {
+    letter-spacing: 5px;
+    filter: brightness(120%);
+    text-shadow: 0 0 1px white;
+}
+
+
+#text {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#title {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+#text-btn {
+    font-family: 'Jost', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#img {
+   max-width: 75%;
+   min-width: 50%;
+   height: auto;
+}
+
+#about {
+    background: rgba(191, 65, 37);
+}
+
+
+#projects {
+    background: rgba(255, 154, 108);
+}
+
+#contact {
+    background: rgba(108, 138, 176);
+}
+
+
+
+/* SECOND PAGE - ABOUT */
+
+.page-about {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    margin: 1% 5% 1% 5%;
+
+    max-width: 95%;
+}
+
+.info-about {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 34px;
+    min-width: 60%;
+    min-height: auto;
+    padding-right: 20%;
+}
+
+.display-about {
+    min-width: 25%;
+    min-height: auto;
+    margin-top: 5%;
+}
+
+.nav-about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    max-width: 60%;
+
+}
+
+
+.back-about {
+    color: white;
+    background: #BF4125;
+    width: 18%;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    padding: 1px;
+}
+
+.btn-about {
+    width: 60%;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    padding: 1px;
+
+}
+
+#img-about {
+    max-width: 90%;
+    min-width: 50%;
+    height: auto;
+}
+
+
+/* THIRD PAGE - PROJECTS */
+
+.page-projects {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    margin: 1% 5% 1% 5%;
+
+    max-width: 95%;
+}
+
+.info-projects {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 34px;
+    min-width: 60%;
+    min-height: auto;
+    padding-right: 20%;
+}
+
+.display-projects {
+    min-width: 25%;
+    min-height: auto;
+    margin-top: 5%;
+}
+
+.nav-projects {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    max-width: 60%;
+}
+
+.back-projects {
+    color: white;
+    background: #BF4125;
+    width: 18%;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    padding: 1px;
+}
+
+.btn-projects {
+    width: 60%;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    padding: 1px;
+}
+
+#img-projects {
+    max-width: 90%;
+    min-width: 50%;
+    height: auto;
+}
+
+/* FOURTH PAGE - CONTACT */
+
+.page-contact {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    margin: 1% 5% 1% 5%;
+
+    max-width: 95%;
+}
+
+.info-contact {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 34px;
+    min-width: 60%;
+    min-height: auto;
+    padding-right: 20%;
+}
+
+.display-contact {
+    min-width: 25%;
+    min-height: auto;
+    margin-top: 5%;
+}
+
+.nav-contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    max-width: 60%;
+}
+
+.back-contact {
+    color: white;
+    background: #BF4125;
+    width: 18%;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    padding: 1px;
+}
+
+.btn-contact {
+    width: 60%;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    padding: 1px;
+}
+
+#img-contact {
+    max-width: 90%;
+    min-width: 50%;
+    height: auto;
+}
+
+/* Fading */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes stay {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#name {
+    transition: none !important;
+}
